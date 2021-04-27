@@ -1,5 +1,7 @@
 import {Request, Response, Router} from 'express';
 
+//teste
+
 const routes = Router();
 
 routes.get('/user/:id/', (request: Request, response: Response) => {
